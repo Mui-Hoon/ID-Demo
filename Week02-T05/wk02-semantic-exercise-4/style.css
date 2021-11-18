@@ -1,0 +1,25 @@
+@import "generic-style.css";
+h1 {
+    color:lightgreen;
+    background-color: black;
+    text-align: center;
+}
+p {
+    color: green;
+}
+.important-para {
+    color:red;
+}
+a:link {
+    color:lime;
+}
+a:visited{
+    color:grey;
+}
+a:hover{
+    color:lightblue;
+}a:active{
+    color:purple;
+}a:focus{
+    color:purple;
+}
