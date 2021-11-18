@@ -35,5 +35,17 @@ function Hotel(name, rooms, booked= 100){
 let ngeeannHotel = new Hotel("Ngee Ann Hotel", 88, 40);
 console.log(ngeeannHotel.printHotelDetails());
 
+let hotel2  = new Object();
 
+hotel2.name = 'Singapore Hotel';
+hotel2.rooms = 100;
+hotel2.booked = 24;
+hotel2.gym = true;
+hotel2.roomTypes = ['twin','suite','delux'];
 
+hotel2.checkAvailability = function() {
+  return this.rooms - this.booked;
+} 
+
+console.log(hotel2);
+console.log(hotel2.checkAvailability());
