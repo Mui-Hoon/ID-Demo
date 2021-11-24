@@ -34,6 +34,7 @@ for (let expenses of dailyExpenses) {
   console.log("Expenses: " + expenses);
 }
 console.log(dailyExpenses);
+
 //while loop
 console.log("\nWHILE LOOP");
 i = 0;
